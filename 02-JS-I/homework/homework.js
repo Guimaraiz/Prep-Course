@@ -60,7 +60,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x === Y) {
+  if (x === y) {
   return true;
   } else {
   return false;
@@ -78,7 +78,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 90) {
+  if (num < 90) {
   return true;
   }else {
   return false;
@@ -154,7 +154,7 @@ return Math.ceil(num)
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-return Math.ramdom();
+return Math.random();
 }
 
 function esPositivo(numero) {
@@ -229,10 +229,10 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
 if (letra.length > 1) {
-  return "Dato incorecto";
+  return "Dato incorrecto";
 }
 if (letra === "a" || letra ==="e" || letra ==="i" || letra ==="o" || letra ==="u") {
-  return "es vocal";
+  return "Es vocal";
 
 }
 return "Dato incorrecto";
