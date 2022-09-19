@@ -1,0 +1,56 @@
+
+  En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estubieras explicando a un niño de 12 años.
+Hacer esto te ayuda a comprender cualquier agujero en tu comprencion.
+
+Explicación de los conceptos:
+        *variables_
+        *Strings_
+        *Funciones (argumentos, 'return')_
+        *Declaraciones 'if'_
+        *valor booleano ('true', 'false')_
+
+  *Una variable es una asociacion entre un espacio de memoria ne el almacenamiento y un nombre simbolico. Esta asociacion tiene un valor que puede tener informacion conocida o no conocida.
+      Ademas esta asociacon tiene un nombre formal que hace referencia al valor antes mencionado
+      Las variables son declaradas mediante palabras claves genérica para variable
+      Existen 3 formas de declarar variable:
+                                              var: Declara una variable, opcionalmente iniciandola a un valor.
+                                              let: Declara una variable local con ambito de bloque y, opcionalmente, la inicializa a un valor.
+                                              const: Declara una constante con nombre de solo lectura y ambito de bloque.
+
+  *Los strings: son bloques de textos redactados entre comillas.
+
+  *La Funciones: son tipos particulares de objetos con las mismas propiedades que cualquier otro.
+
+   *Argumento: es un objeto también variable pero local de las funciones. Con el objeto se puede hacer referencia
+      dentro de la misma función a otros objetos.
+
+   *Return: Nos permite retornar el valor de una variable fuera de una funcion.
+
+  *if: Es una palabra reservada clave para verificacion y control de flujo "comparacion" Es una forma de de que las funciones verifique en true o false.
+
+  *Valores booleanos: son un tipo de datos logicos que tienen dos valores true and false.
+
+Explicacion de los conseptos de:
+        * for
+        * &&, ||, !
+
+  *for: es un condicional similar a if en cuanto a su sintaxis, aunque es mas compleja, esta es una forma de ejecucuion en bucles, que busca reiteradas veces lo que le indicamos
+      esta reiteracion de busqueda es dada por una exprecion condicional que no se detiene hasta obtener false.
+      Su estructura esta dada por: parentesis que encierran a su ves a (variables; exprecion condicional; forma de incremento) separadas por el punto y coma
+
+  *El operador logico &&: "Y" ("AND") una exprecion que evalua dos expreciones y devuelve true si las dos son verdaderas.
+
+  *El operador logico ||: "O" ("OR") una exprecion que evalua entre dos expreciones si una es true devolvera true "verdadero"
+
+  *El operador logico !: "NOT" ("NO") es un operador que tiene efecto sobre los operadores invierte sus resultados booleanos.
+
+Explicacion sobre el consepto:
+        *arrays
+
+  *arrays: los Array El objeto al igual que con las matrices en oros lenguajes de programacion, permiten almacenar una coleccion de varios elementos bajo un solo nombre de variable y tienen
+      tiene miembros para realizar operaciones de matriz comunes.
+      En JS las matrices no son primitivas sino Array objetos con caracteristicas Principales
+        * son redimencionables y pueden contener diferentes tipos de datos
+        *Se accede a los elementos utilizando enteros como indice.
+        *el ultimo elemento tiene el valor (length - 1)
+        *Las opciones en JS crean copias superficiales no copias profundas.
